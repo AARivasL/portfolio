@@ -1,0 +1,41 @@
+.button {
+    background-color: #172554;
+    /* Color de fondo */
+    color: white;
+    /* Color de texto */
+    padding: 10px 20px;
+    /* Espaciado interior */
+    border: 0.5px solid white;
+    /* Sin borde */
+    border-radius: 15px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+    padding-top: 5;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    text-align: center;
+    /* Color de fondo al pasar el mouse */
+}
+
+.image {
+    border-radius: 55px;
+    /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.998);
+    /* Sombra suave */
+    max-width: 100%;
+    /* Para que sea responsive */
+    height: auto;
+}
+
+.ejemplo:hover {
+    background-color: #172554;
+    color: white;
+    transition: background-color 0.3s ease;
+
+}
